@@ -4,3 +4,9 @@ README.txt
 Rakefile
 lib/zenweb_autolink.rb
 test/test_zenweb_autolink.rb
+test_site/Rakefile
+test_site/_config.yml
+test_site/_layouts/site.erb
+test_site/page2.html.md
+test_site/page3.html.autolink.md
+test_site/zenweb.html.md
