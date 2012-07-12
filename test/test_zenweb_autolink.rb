@@ -1,5 +1,5 @@
 require "test/unit"
-require "zenweb_autolink"
+require "zenweb-autolink"
 
 class TestZenwebAutolink < Test::Unit::TestCase
 
