@@ -1,6 +1,5 @@
-=== 1.0.0 / 2012-06-28
+=== 0.0.1 / 2012-06-28
 
-* 1 major enhancement
+* 1 major enhancement:
 
-  * Birthday!
-
+  * First working version of autolinking pages based on their titles

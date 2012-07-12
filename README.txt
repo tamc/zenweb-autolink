@@ -1,26 +1,41 @@
 = zenweb-autolink
 
-* FIX (url)
+* Source :: http://github.com/tamc/zenweb-autolink
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A plugin for zenweb that automatically generates links between pages.
+
+For example: If a page has a title attribute 'my page about zebweb' then
+any other page that contains text like 'see my page about zenweb' would
+have some of the text replaced with a link to that page: 
+'see <a href='/zenweb.html'>my page about zenweb</a>'
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Only replaces text with links if the text is part of a paragraph or 
+  list (i.e., won't create links in titles or inside other links)
+* Works on any html
+* But, doesn't allow you to specify when links do or don't occur
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+See test_site directory for an example of its usage.
+
+
+1 Add `require 'zenweb-autolink'`
+2 Make sure some of your pages have title attributes (i.e., they have a
+  _config.yml file or config block that has title: tile at the top)
+3 Add the extension .autolink to pages that you want the autolinker to operate on
+  (it is best to put the extension immediately after the '.html' extension)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Zenweb 3.0.0.b3 or later
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+  sudo gem install zenweb-autolink  
 
 == DEVELOPERS:
 
@@ -35,7 +50,7 @@ and generate the RDoc.
 
 (The MIT License)
 
-Copyright (c) 2012 FIX
+Copyright (c) 2012 Tom Counsell
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
