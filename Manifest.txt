@@ -1,8 +1,6 @@
-.autotest
 History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/zenweb/autolink
-lib/zenweb/autolink.rb
-test/test_zenweb/autolink.rb
+lib/zenweb_autolink.rb
+test/test_zenweb_autolink.rb
